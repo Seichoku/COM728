@@ -6,4 +6,4 @@ if first_number > second_number:
     print("Second Number is smaller")
 else:
     print("First number smaller")
-gitadd .
+
