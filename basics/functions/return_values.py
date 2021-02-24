@@ -24,3 +24,7 @@ def run():
         print("select an option from the options stated above")
 
 run()
+
+print("Enter your name")
+name = input()
+print("your name is ")
