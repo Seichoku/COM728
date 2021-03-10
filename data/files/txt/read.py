@@ -1,25 +1,22 @@
 def display_char(path, num_char):
-    file = open(path)
-    library = file.read(num_char)
-    print("The first 20 Characters are:")
-    print(library)
-    file.close()
+    with open(path) as file:
+        library = file.read(num_char)
+        print("The first 20 Characters are:")
+        print(library)
 
 
 def display_line(path):
-    file = open(path)
-    line = file.readline().strip()
-    print("The first line is:")
-    print(line)
-    file.close()
+    with open (path) as file:
+        line = file.readline().strip()
+        print("The first line is:")
+        print(line)
 
 
 def display_text(path):
-    file = open(path)
-    library = file.read()
-    print("The full text is:")
-    print(library)
-    file.close()
+    with open(path) as file:
+        library = file.read()
+        print("The full text is:")
+        print(library)
 
 
 def run():

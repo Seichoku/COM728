@@ -1,6 +1,4 @@
-
-
-def search(file_name):
+def search(file_path):
     print("Searching........")
     with open("library.txt") as file:
         for location in file:
