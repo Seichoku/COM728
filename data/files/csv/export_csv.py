@@ -7,7 +7,7 @@ def export(file_path,num_bot):
             print("Enter bot id...")
             bot_id = int(input())
 
-            print("Enter bot name...")git add
+            print("Enter bot name...")
             bot_name = str(input())
 
             print("Enter bot paint...")
