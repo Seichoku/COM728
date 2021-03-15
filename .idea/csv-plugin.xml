@@ -38,6 +38,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data\files\json\read_json.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\sets\set_from_list.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\sets\simple_set.py">
           <value>
             <Attribute>
