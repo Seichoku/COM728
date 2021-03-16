@@ -16,7 +16,7 @@ def run():
     print("Working out escape route....")
     for i in range(5):
         route.append(menu())
-    print(f"Escape route: {route}")g
+    print(f"Escape route: {route}")
 
 
 if __name__ == "__main__":
