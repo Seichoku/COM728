@@ -3,6 +3,27 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="C:\Users\Emeka Ichoku\Downloads\MyChatbot.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\basics\functions\function_calls.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\assessment2.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\files\csv\bots.csv">
           <value>
             <Attribute>
@@ -59,6 +80,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data\olympics\process.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\olympics\tui.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\sets\set_from_list.py">
           <value>
             <Attribute>
@@ -81,6 +116,13 @@
           </value>
         </entry>
         <entry key="\data\titanic\titanic.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\persistence\select_one.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />
