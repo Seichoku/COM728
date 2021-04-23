@@ -7,14 +7,16 @@ def menu():
     print("Please select a direction:")
     dirs = direction()
     for index in range(len(dirs)):
-        print(f"{index}: {dirs}")
+        dir = dirs[index]
+        print(f"{index}: {dir}")
     index = int(input())
     return dirs[index]
+
 
 def run():
     route = []
     print("Working out escape route....")
-    for i in range(5):
+    for i in range(4):
         route.append(menu())
     print(f"Escape route: {route}")
 

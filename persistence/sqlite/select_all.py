@@ -1,19 +1,21 @@
 import sqlite3
 
-def retrieve_bot():
+
+def retrieve_bots():
     db = sqlite3.connect("Bots.db")
     cursor = db.cursor()
 
     sql = "SELECT * FROM bots;"
     cursor.execute(sql)
 
-    record = cursor.fetchone()
+    record = cursor.fetchall()
     db.close()
+
     print(record)
 
 
 def run():
-    retrieve_bot()
+    retrieve_bots()
 
 
 if __name__ == "__main__":

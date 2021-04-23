@@ -20,16 +20,12 @@ def menu():
     print(
     """
     Please Select an option:
-    
     [years]    List unique years"
     [tally]    Tally up medals"
     [ctally]   Tally up medals for each team"
     [exit]     Exit the program
-    
-    Your Selection:
-    
+    Your Selection:   
     """)
-
     selection = str(input())
     return selection
 
